@@ -1,109 +1,106 @@
 header {
-    height: 50px;
-    background-color: slategray;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-content: center;
+  height: 50px;
+  background-color: slategray;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
 }
 header > div {
-    width: 95%;
-    max-width: 2000px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    /* background-color: springgreen; */
+  width: 95%;
+  max-width: 2000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* background-color: springgreen; */
 }
 
 header > div > content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 header > div img {
-    margin-left: 5px;
-    margin-top: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
-
-header > div > content input{
-    margin: 5px;
-    width: 250px;
-    height: 25px;
-    justify-content: center;
-    align-content: center;
-    margin-top: 10px;
+header > div > content input {
+  margin: 5px;
+  width: 250px;
+  height: 25px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
 }
 
 header img {
-    height: 30px;
+  height: 30px;
 }
 
-
 header ul {
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 }
 
 header ul li a {
-    color: white;
-    font-size: 16px;
-    align-content: center;
-    margin-top: 15px;
-    /* background-color: violet; */
+  color: white;
+  font-size: 16px;
+  align-content: center;
+  margin-top: 15px;
+  /* background-color: violet; */
 }
 
 div > div > content {
-    right: 0;
-    /* background-color: white; */
-    z-index: 2;
+  right: 0;
+  /* background-color: white; */
+  z-index: 2;
 }
 
 .profileImg {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .big-profileImg {
-    border-radius: 50%;
-    height: 300px;
-    margin-left: 275px;
-    margin-top: -30px;
-    z-index: 3;
+  border-radius: 50%;
+  height: 300px;
+  margin-left: 5vw;
+  margin-top: -30px;
+  z-index: 3;
 }
-
 
 ul li a {
-    display: flex;
-    position: sticky;
-    align-content: center;
-    justify-content: center;
-    /* background-color: tomato; */
+  display: flex;
+  position: sticky;
+  align-content: center;
+  justify-content: center;
+  /* background-color: tomato; */
 }
 
-div h1 {
-    /* background-color: turquoise; */
-    font-size: xx-large;
-    margin-left: 275px;
-    width: 300px;
+ #name{
+  /* background-color: turquoise; */
+  font-size: xx-large;
+  margin-left: 5vw;
+  width: 300px;
 }
 
-div p {
-    /* background-color: violet; */
-    font-size: x-large;
-    margin-left: 275px;
-    color: slategray;
-    width: 300px;
+div h3 {
+  /* background-color: violet; */
+  font-size: x-large;
+  margin-left: 5vw;
+  color: slategray;
+  width: 300px;
 }
 
 div button {
-    margin-left: 275px;
-    width: 300px;
-    height: 35px;
-    background-color: white;
+  margin-left: 5vw;
+  width: 300px;
+  height: 35px;
+  background-color: white;
 }
 
 .tab {
@@ -112,24 +109,75 @@ div button {
   width: 500px;
   margin-left: 35vw;
   margin-top: 20px;
+  margin-bottom: 5vh;
   font-size: 20px;
 }
 
 .tabs {
-    justify-content: center;
-    align-content: center;
-    position: sticky;
+  justify-content: center;
+  align-content: center;
+  position: sticky;
 }
 
-div > div {
+/* div > div > content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100px;
     width: 300px;
-    /* background-color: springgreen; */
+    background-color: springgreen;
+} */
+
+/* div > div > p {
+  font-size: larger;
+} */
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: turquoise; */
 }
 
-div > div > p {
-    font-size: larger;
+#repo {
+  /* background-color: violet; */
+  padding: 10vh;
+  text-align: left;
+  width: 20vw;
+  
+}
+
+div .main {
+  display: flex;
+}
+
+div div > .main-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: yellow; */
+}
+
+div div > .main-head > h1 {
+  font-size: large;
+  width: 40vw;
+  margin-left: 7vw;
+}
+
+.row1 {
+  display: flex;
+  margin-top: auto;
+}
+
+.row2 {
+  display: flex;
+  margin-top: auto;
+}
+
+.row3 {
+  display: flex;
+}
+
+div p {
+  text-align: left;
 }
